@@ -48,7 +48,7 @@ controller.hears(['what is my name','who am i'],'direct_message,direct_mention,m
 
 controller.hears(['hello'],'direct_message,direct_mention,mention',function(bot, message) {
   bot.reply(message, '<@' + message.user + '> hello')
-  bot.say(message, '<@bot> hello')
+  bot.reply(message, '<@bot> hello')
 });
 
 // To keep Heroku's free dyno awake

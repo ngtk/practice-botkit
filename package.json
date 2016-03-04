@@ -1,0 +1,23 @@
+{
+    "name": "practice-botkit",
+    "version": "0.0.1",
+    "description": "practice botkit",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "botkit": "howdyai/botkit",
+        "redis": "2.4.2"
+    },
+    "devDependencies": {
+        "node-notifier": "4.4.0",
+        "gulp": "3.9.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ngtk-practices/practice-botkit"
+    },
+    "author": "Kent Nagata",
+    "license": "MIT"
+}

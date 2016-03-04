@@ -1,0 +1,15 @@
+{
+    "name": "practice-botki",
+    "description": "practice botkit",
+    "keywords": ["slack", "chatbot"],
+    "repository": "https://github.com/ngtk-practices/practice-botkit",
+    "env": {
+        "SLACK_TOKEN": {
+            "description": "Slack bot token"
+        }
+    },
+    "addons": [
+        "rediscloud:30",
+        "scheduler"
+    ]
+}

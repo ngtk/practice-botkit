@@ -46,8 +46,8 @@ controller.hears(['what is my name','who am i'],'direct_message,direct_mention,m
     });
 });
 
-controller.hears(['calendar'],'direct_message,direct_mention,mention',function(bot, message) {
-  bot.reply(message, 'not implemented yet:(')
+controller.hears(['hello'],'direct_message,direct_mention,mention',function(bot, message) {
+  bot.reply(message, 'hello')
 });
 
 // To keep Heroku's free dyno awake
